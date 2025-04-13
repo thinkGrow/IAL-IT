@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About Box Models</title>
+    <style>
+        .title {
+            height: 80px;
+            width: 100%;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 120px;
+            position: fixed;
+            padding: 15px;
+            top: 100px;
+            left: 0;
+            background: lightblue;
+            text-align: center;
+        }
+
+        .content {
+            margin-left: 150px;
+            position: fixed;
+            top: 100px;
+            left: 150px;
+        }
+
+        p,
+        h1 {
+            font-family: sans-serif;
+            /* background-color: gray; */
+        }
+
+        p {
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Welcome to my homepage</h1>
+    </div>
+
+    <div class="sidebar">
+        <p><a href="https://www.github.com/thinkGrow">Our Projects</a></p>
+        <p><a href="">Unit List</a></p>
+        <p><a href="">Contact Form</a></p>
+    </div>
+
+    <div class="content">
+
+        <p>This is the main content of the page</p>
+    </div>
+</body>
+
+</html>
